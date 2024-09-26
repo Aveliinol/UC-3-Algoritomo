@@ -61,3 +61,55 @@
 // frutas.push("Melancia");
 
 // console.log(frutas);
+
+// Questão 7 
+
+// let nomes = ["Ana", "Carlos", "João", "Maria"];
+// // let indice = nomes.indexOf('Carlos');
+// nomes.splice(2, 1, "José");
+// nomes.unshift("Fernanda");
+// nomes.push("Rafael");
+// let indice = nomes.indexOf('Carlos');
+// console.log(indice);
+// console.log(nomes);
+
+// Questão 8 
+
+// let precos = [15.5, 10.0, 20.75, 30.0, 8.0]; 
+// let preco = precos.map(
+//     function(numero){
+//         return numero * 1.1; 
+//     });
+//     let valor = preco.filter(function(numeros){
+//             return numeros > 20; 
+//         })
+//  let soma = valor.reduce(function(acumulador, numeros){
+//           return acumulador + numeros;
+//            });
+
+// console.log(soma);  
+
+// Questão 9
+// Antonio falou para pula essa questão 
+
+// Questão 10 
+
+// let notas = [7.5, 8.0, 6.5, 9.0, 7.0];
+// let media = notas.reduce((acc, nota) => acc + nota, 0) / notas.length;
+// let status = media >= 7 ? "Aprovado" : "Reprovado";
+// console.log(media);
+// console.log(status);
+
+// Questão 11 
+
+// let cidade = "São Paulo";
+// let clima = "ensolarado";
+// let frase = `Hoje em ${cidade} está ${clima}.`;
+// let novaPalavra = frase.replace("ensolarado", "chuvoso");
+
+// console.log(novaPalavra);
+// console.log(frase);
+
+// Questão 12 
+
+let texto = "javascript é incrível"; 
