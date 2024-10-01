@@ -112,4 +112,91 @@
 
 // Questão 12 
 
-let texto = "javascript é incrível"; 
+// let texto = "javascript é incrível"; 
+// let textos = texto.split(" ");
+// textos.reverse();
+// let textosM = textos.map( textoM => {
+//     return textoM.charAt(0).toUpperCase() + textoM.slice(1);
+// });
+// let resultado = textosM.join(" ");
+
+// console.log(resultado);
+
+// Questão 13 
+
+// let mes = 6
+
+// switch(mes){
+//     case 1: 
+//       console.log("Janeiro");
+//         break;  
+//     case 2:
+//       console.log("Fevereiro");
+//         break;
+//     case 3: 
+//       console.log("Março");
+//       break;
+//     case 4: 
+//       console.log("Abril");
+//         break;
+//     case 5: 
+//        console.log("Maio");
+//          break;
+//     case 6: 
+//        console.log("Junho");
+//         break;
+//     case 7: 
+//        console.log("Julho");
+//         break;
+//     case 8: 
+//       console.log("Agosto");
+//         break;
+//     case 9:
+//        console.log("Setembro");
+//         break;
+//     case 10: 
+//         console.log("Outubro");
+//            break;
+//     case 11:
+//          console.log("Novembro");
+//           break;
+//     case 12: 
+//        console.log("Dezembro");
+//          break;                                               
+// } 
+
+// function verificarMes(){
+//     if(mes >= 1 && mes <= 6){
+//         console.log("Primeiro semestre")
+//     } else {
+//         console.log("Segundo semestre")
+//     }
+// }
+// verificarMes();
+
+// Questão 14 
+
+// let numeroStr = "45.67";
+// console.log(parseFloat(numeroStr));
+// console.log(Math.floor(numeroStr));
+// console.log(Math.ceil(numeroStr));
+
+// Questão 15
+
+// let palavra = "programador";
+
+// console.log(palavra.charAt(3));
+// console.log(palavra.indexOf("a"));
+// let palavras = palavra.slice(0, 5);
+// console.log(palavras);
+
+// Questão 16 
+
+let frase = "Estudar programação é ótimo!";
+let frases = 0;
+for(let i = 0; i < frase.length; i++){
+    if (frase.charAt(i) == "a"){
+        frases++;
+    }
+}
+console.log(frases);
