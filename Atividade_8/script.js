@@ -192,11 +192,57 @@
 
 // Questão 16 
 
-let frase = "Estudar programação é ótimo!";
-let frases = 0;
-for(let i = 0; i < frase.length; i++){
-    if (frase.charAt(i) == "a"){
-        frases++;
-    }
-}
-console.log(frases);
+// let frase = "Estudar programação é ótimo!";
+// let frases = 0;
+// for(let i = 0; i < frase.length; i++){
+//     if (frase.charAt(i) == "a"){
+//         frases++;
+//     }
+// }
+// console.log(frases);
+
+// Questão 17 
+
+// let letras = ["a", "b", "c", "d", "e"];
+// letras.reverse();
+// let letra = letras.join(",");
+
+// console.log(letra);
+
+// Questão 18 
+
+// let numeros = [5, 12, 8, 130, 44];
+// let numeroMaior = numeros.filter(function(numero){
+//     return numero > 10;
+// });
+// let soma = numeros.reduce(function(acumulador, numero){
+//     return acumulador + numero; 
+// });
+// if (numeros.length == 5) {
+//     console.log("Tem 5 elementos")
+// }else{
+//     console.log("Não tem 5 elementos")
+// }
+
+// console.log(numeroMaior);
+// console.log(soma);
+
+// Questão 19 
+
+// let nome = "Alice";
+// let nomeMinusculo = nome.toLocaleLowerCase();
+// let reconhecimento = nomeMinusculo == "alice" ?  "Nome Reconhecido" : "Nome não Reconhecido"
+
+// console.log(nomeMinusculo);
+// console.log(reconhecimento);
+
+// Questão 20 
+
+// let numeros = [];
+// for (let i = 0; i < 5; i++) {
+//     numeros.push(Math.floor(Math.random() * 21));
+// }
+
+// console.log(numeros);
+
+// Questão 21 
