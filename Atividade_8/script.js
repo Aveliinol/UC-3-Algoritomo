@@ -27,8 +27,11 @@
 // let soma = valor.reduce(function(acumulador, numeros){
 //     return acumulador + numeros;
 // }); 
+// let eNumero = !isNaN(soma)
 
-// console.log(isNaN(soma));
+// console.log(eNumero);
+// console.log(valor)
+// console.log(soma)
 
 // Questão 4 
 
@@ -246,3 +249,34 @@
 // console.log(numeros);
 
 // Questão 21 
+
+// let frase = "Aprender JavaScript é divertido e recompensador";
+// let palavras = frase.split(' ');
+// let numPalavras = palavras.length;
+// let maisDe5Palavras = numPalavras > 5; 
+
+// console.log(palavras);
+// console.log(numPalavras);
+// console.log(maisDe5Palavras);
+
+// Questão 22 
+
+// let usuario = prompt("Qual é o seu nome?");
+// let comfirmar = comfirm(`Seu nome é ${usuario}?`);
+// if (confirmar){
+//     alert(`Olá ${usuario}!`);
+// }
+
+
+// Questão 23 
+
+// let texto = "JavaScript"; 
+// let contadorA = 0;
+// for (let i = 0; i < texto.length; i++){
+//     if(texto[i] === "a") contadorA++;
+// }
+
+// console.log(contadorA);
+
+// Questão 24 
+
