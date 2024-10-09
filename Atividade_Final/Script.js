@@ -156,10 +156,18 @@
 
 // Questão 20 
 
-let palavra = "programador"
-let palavras = 0;
-for(let i = 0; i < palavra.length; i++){
-    if (palavra.charAt(i) == "a"){
-        palavras++;
-    }
-}
+// let palavra = "programador"
+// let palavras = 0;
+// for(let i = 0; i < palavra.length; i++){
+//     if (palavra.charAt(i) == "a"){
+//         palavras++;
+//     }
+// }
+
+// console.log(palavras);
+
+// Questão 21 
+
+let str1 = "casa"
+let str2 = "CASA"
+
