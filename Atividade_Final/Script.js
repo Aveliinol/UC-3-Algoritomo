@@ -164,10 +164,156 @@
 //     }
 // }
 
-// console.log(palavras);
+// console.log(palavras); 
 
 // Questão 21 
 
-let str1 = "casa"
-let str2 = "CASA"
+// let str1 = "casa";
+// let str2 = "CASA";
+// let result = str1 === str2 ? "true" : "False";
 
+//  console.log(result);
+
+// Questão 22 
+
+// let numeros = [15, 20, 25, 30];
+// let todosMaioresQue10 = true;
+
+// for(let i = 0; i < numeros.length; i++){
+//  if (numeros[i] <= 10) {
+//     todosMaioresQue10 = false; 
+//      break;
+//  }
+// }
+
+// console.log(todosMaioresQue10);
+
+// Questão 23 
+
+// let numeros = [5, 8, 12, 3];
+// let algumMenorQue5 = false;
+
+//  for(let i = 0; i < numeros.length; i++){
+//    if (numeros[i] < 5){
+//     algumMenorQue5 = true; 
+//      break;
+//    } 
+//  }
+
+//  console.log(algumMenorQue5);
+
+// Questão 24 
+
+// let frase = " JavaScript é divertido! ";
+
+// console.log(frase.trim());
+
+// Questão 25 
+
+// let numero = 7;
+
+// if(numero > 10){
+//     console.log("Maior que 10")
+// } else {
+//     console.log("Menor que 10")
+// };
+
+// Questão 26 
+
+// let palavras = ["Eu", "amo", "JavaScript"];
+// let palavra = palavras.join(" ");
+
+// console.log(palavra);
+
+// Questão 27 
+
+// let palavra = "JavaScript" ;
+// let palavras = palavra.split(``);
+
+// console.log(palavras);
+
+// Questão 28 
+
+// let numero = 25;
+
+// if(numero > 10 && numero < 50){
+//     console.log("Dentro do intervalo")
+// } else{
+//     console.log("Fora do intervalo")
+// }; 
+
+// Questão 29 
+
+// let numeros = [2, 4, 6]; 
+
+// let result = numeros.map(function(numero){
+//     return numero * 3;
+// });
+
+// console.log(result);
+
+// Questão 30 
+
+// let str1 = "João";
+// let str2 = "joão";
+
+// let result = str1 === str2 ? "False" : "True";
+
+// console.log(result);
+
+// Questão 31 
+
+// let nomes = ["Pedro", "Maria", "José"]; 
+// nomes.unshift("Ana");
+
+// console.log(nomes);
+
+// Questão 32 
+
+// let cidades = ["Natal", "Recife", "Fortaleza"];
+// cidades.pop();
+
+// console.log(cidades);
+
+// Questão 33 
+
+// let numero = -8;
+
+// if(numero < 0 ){
+//     console.log("Numero negativo");
+// } else{
+//     console.log("Numero positivo");
+// };
+
+// Questão 34 
+
+// let nome = "JavaScript"
+// let nomeMaiusculo = nome.toUpperCase() 
+// let nomeMinusculo = nomeMaiusculo.toLowerCase()
+
+// console.log(nomeMinusculo); 
+
+// Questão 35 
+
+// let numeros = [2, 4, 6, 8];
+
+// let result = numeros.map(function(numero){
+//     return numero * 2;
+// });
+
+// console.log(result);
+
+// Questão 36 
+
+// let texto = "JavaScript é divertido"; 
+// let textos = texto.split(' ');
+// let junta = textos.join("");
+
+// console.log(junta); 
+
+// Questão 37 
+
+// let numero = 16 
+// let resultado = Math.sqrt(numero);
+
+// console.log(resultado);
