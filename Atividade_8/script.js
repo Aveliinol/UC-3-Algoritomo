@@ -280,3 +280,84 @@
 
 // Questão 24 
 
+// let cores = ["Vermelho", "Verde", "Azul"]; 
+// cores.push("Amarelo");
+// cores.splice(1,1);
+// cores.unshift("Roxo");
+
+// console.log(cores);
+
+// Questão 25 
+
+// let str1 = "casa";
+// let str2 = "CASA";
+
+// if (str1.toLowerCase() === str2.toLowerCase()) {
+//     console.log("iguais");
+// };
+// if (str1.toUpperCase() === str2.toUpperCase()) {
+//     console.log("iguais");
+// };
+
+// Questão 26 
+
+// let array = [];
+// for(let i = 0; i < 5; i++){
+//     array.push(Math.floor(Math.random() * 51 ))
+// }; 
+
+// let ordem = array.sort((a, b) => a - b);
+// let decrescente = ordem.reverse();
+
+// console.log(decrescente);
+
+// Questão 27 
+
+// let carros = [
+//     {marca: "Honda",modelo: "Civic",ano: 2008}, 
+//     {marca: "Nissan",modelo: "Skyline",ano: 2002 },
+//     {marca: "Porsche",modelo: "911 spyder",ano: 2024},
+//     {marca: "Fiat",modelo: "Uno", ano: 2003},
+//     {marca: "Mitsubishi",modelo: "Lancer",ano: 2024}
+// ]
+
+// let filtro = carros.filter(function(carro){
+//     return carro.marca === "Nissan"
+// });
+// let modelos = filtro.map(function(carro){
+//     return carro.modelo
+// });
+
+// console.log(filtro);
+// console.log(modelos);
+
+// Questão 28
+
+// let animais = ["Cachorro", "Gato", "Leão", "Tigre"];
+// animais.splice(2, 1, "Panda");
+// animais.splice(1, 0, "Coelho");
+
+// console.log(animais);
+
+// Questão 29 
+
+// let numeros = [10, 5, 15, 7, 20]; 
+// let ordem = numeros.sort((a, b) => a - b);
+// ordem.unshift(4);
+
+// if(ordem.length === 6){
+//     console.log("Esse array tem 6 elementos")
+// } else{
+//     console.log("Esse array não tem 6 elementos")
+// };
+
+// console.log(ordem);
+
+// Questão 30 
+
+// let part1 = "Aprender";
+// let part2 = "Programação";
+// let juntar = part1.concat(part2);
+// let result = juntar.split('').reverse().join('.');
+
+// console.log(result);
