@@ -317,3 +317,117 @@
 // let resultado = Math.sqrt(numero);
 
 // console.log(resultado);
+
+// Questão 38 
+
+// let itens = [];
+
+// if(itens.length == 0){
+//     console.log("True")
+// } else {
+//     console.log("False")
+// };
+
+// Questão 39 
+
+// let numero = 5;
+
+// function fatorial(n){
+// if (n === 0 || n === 1){
+//     return 1
+// }else {
+//     return n * fatorial(n - 1);
+// };
+// }
+
+// console.log(fatorial(numero));
+
+// Questão 40 
+
+// let valores = [1, 2, 3, 4, 5]; 
+// let valor = valores.map(function(numero){
+//     return numero * 2;
+// }) 
+// let soma = valor.reduce(function(numero, acumulador){
+//     return numero + acumulador;
+// })
+
+// console.log(soma);
+
+// Questão 41 
+
+// let texto = "JavaScript";
+// let separar = texto.split(``);
+
+// console.log(separar);
+
+// Questão 42 
+
+// let parte1 = "Olá, ";
+// let parte2 = "mundo!";
+// let juntar = parte1.concat(parte2);
+
+// console.log(juntar);
+
+// Questão 43 
+
+// let numeroStr = "25";
+
+// console.log(parseInt(numeroStr));
+
+// Questão 44 
+
+// let cores = ["Vermelho", "Verde", "Azul"];
+// cores.splice(1,1);
+
+// console.log(cores);
+
+// Questão 45 
+
+// let palavra = "JavaScript";
+
+// console.log(palavra.length);
+
+// Questão 46 
+
+// let a = 5;
+// let b = 7; 
+// let soma = a + b; 
+// if(soma > 30){
+//     console.log("Maior que 30")
+// } else {
+//     console.log("Menor ou igual a 30")
+// };
+
+// Questão 47 
+
+// let palavra = "JavaScript";
+// let dividir = palavra.split(``);
+// let inverter = dividir.reverse();
+
+// console.log(inverter);
+
+// Questão 48 
+
+// let cidades = ["Natal", "Recife", "Fortaleza"];
+// cidades.shift();
+
+// console.log(cidades);
+
+// Questão 49 
+
+// let numero = 9;
+// if(numero % 2 === 0){
+//     console.log("O numero é par")
+// } else{
+//     console.log("O numero é impar")
+// };
+
+// Questão 50 
+
+// let numeros = [1, 2, 3, 4, 5];
+// let resultado = numeros.map(function(numero){
+//     return numero * 10;
+// })
+
+// console.log(resultado);
